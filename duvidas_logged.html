@@ -1,0 +1,103 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="./css/main.css">
+<title>Easy Pizza</title>
+</head>
+
+<body>
+<header class="menu-principal">
+<main>
+                                        
+<div class="logo">
+<img src="./img/Logo.png">
+</div>
+                                    
+<div class="Redes">
+<ul>
+<li><a href="http://facebook.com.br" target="blank"><img src="./img//LogoF.png"/></a></li>
+<li><a href="https://www.instagram.com" target="blank"><img src="./img/LogoI.png"/></a>
+</div>
+</div>      
+                                
+</main>
+
+</header>
+<main class="conteudo">
+<div class="menu">
+<ul>
+<li><a href="./index_logged.html"><img src="./img/Bhome.png"></a></li>
+<li><a href="./cardapio_logged.html"><img src="./img/Bcardapios.png"></a></li>
+<li><a href="./duvidas_logged.html"><img src="./img/Bduvidas.png"></a></li>
+            
+</ul>
+
+</div>
+
+<div class="fundo">
+ 
+<div class="movper">
+
+<div class = "perguntasFreq">
+<h1>PERGUNTAS FREQUENTES</h1>
+</div> 
+
+<div class = p1>
+<h3>Quanto tempo demora até a pizza chegar?</h3>
+</div>    
+
+<div class = r1>
+<h3>Cerca de 40 minutos após o pedido ser feito a pizza estará em sua casa!</h3>
+</div>
+
+<div class = p2>
+<h3>Como posso entrar em contato com o Easy Pizza?</h3>
+</div>
+
+<div class = r2>
+<h3>Via telefone ou pelos links disponiveis no topo da página</h3>
+</div>
+
+<div class = outraPergunta>
+<h3>Ainda está com dúvidas?</h3>
+<input type="text" id="txtuser"><input type="submit" id="getvalue">
+<div>Assim que possivel responderemos!</div>
+</div>
+              
+<div class="minhasperguntas">
+<h1>Minhas perguntas</h1>
+<h3>Não respondidas</h3>
+<div id="perguntausuario"></div>
+
+</div>
+
+</div>
+</div>
+                                
+</main>
+
+    <script>
+      
+      inputvalue = document.getElementById('txtuser');
+      buttonget = document.getElementById('getvalue');
+      locationquestion = document.getElementById('perguntausuario');
+
+      buttonget.onclick = function(){
+          var div = document.getElementById('perguntausuario');
+         var valueUser = inputvalue.value;  //pega valor do usuario
+
+          div.innerText =" 1: " + valueUser;
+
+          
+        
+
+
+      }
+    
+    
+    
+    
+    </script>
+         </body>
+                                    
+</html>

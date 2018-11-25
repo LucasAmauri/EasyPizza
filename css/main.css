@@ -1,0 +1,296 @@
+.sabores{
+    float: left;
+    margin-left: 350px;
+    margin-top: 100px;
+}
+
+.titulo{
+    margin-left: 600px;
+}
+.perguntasFreq {
+    text-align: center;
+    color:black;
+    margin-left:200px;
+  }
+  
+
+.sabores ul li{
+list-style:none;
+float: left;
+margin-left: 30px;
+}
+
+.fundo{ 
+    background-color: yellow;
+    height:1000px;
+    width: 1345px;
+    border-top-left-radius: 500px;
+    border-top-right-radius: 500px;
+    border-style: dashed;
+}
+
+.Redes{
+    float:left;                     /*libera espaço da div a esquerda*/
+   }
+.Redes ul li {
+    background-color: white;
+    float: left;                    /*faz elementos da linha ficar lado a lado*/
+    list-style: none;               /*retira marcadores da linha*/
+}
+.Redes img{
+    height: 40px;                   /* tamanho de todas as logos da div .redes*/
+}
+
+.menu{
+    height: 70px;                  /*tamanho da div .menu*/
+}
+
+.menu ul{
+    background-color: white;     /*cor que fica entre as listas*/
+    float: left; 
+    margin-top: -11px;             /*está a -11 pixels do topo da pagina*/ 
+    margin:left 200px;             /*lista está a 200 pixels da esquerda*/
+    height: 70px;                  /*tamanho que div da lista ocupa*/
+}
+.menu ul li{
+    background-color: white;     /*cor do espaço entre elementos da lista*/
+    float:left;                    
+    list-style: none;              /*retira marcadores*/
+    margin: 30px;
+    
+    
+}
+.menu img{
+    border-top-right-radius: 400px;
+    
+}
+.logo{
+    background-color: white;
+    float: left;
+    margin-left: 100px;  
+    }
+
+    .logo img{
+        height: 70px;
+    }
+    
+    .menu-principal{
+        margin-left: 100px;   /* todos elementos que estão dentro do header menu-principal
+    }                          estão a 100 pixel a esquerda*/
+      }
+      
+      .p1, .p2 {
+        margin-left: 220px;  
+        color: red;
+      }
+    
+      .r1, .r2{
+        margin-left: 220px;
+        color: black;
+      }
+      .outraPergunta {
+        margin-left: 220px;
+        color:red;
+      }
+    
+      .parceria {
+          border-radius: 500px;
+          margin-top: 400px;
+          margin-left: 1000px;
+          
+          
+          display: flex; 
+          width: 170px;
+          height: 200px
+         }
+
+         .parceria nav ul li{
+             font-size: 150%
+
+         }
+        .promocao{
+            float: left;
+            margin-left:300px;
+            margin-top: 50px;
+        }
+
+        .promocao h1{
+            margin-left: 30%;
+            
+        }
+
+        .promocao ul li {
+            margin: 30px;
+            background-color: #821b1d;
+            height: 160px;
+            width: 160px;
+            float: left;
+            list-style: none;
+            border-style: dashed
+            
+
+        }
+
+        .promocao header{
+            font-size: 25px;
+            margin-left: 10px;
+        }
+
+        .promocao footer{
+            margin-top: 70px;
+            margin-left: 2px;
+          
+            
+        }
+ 
+         .promo1 footer{
+             margin-top: -10px;
+             
+         }
+         .promo2 footer{
+            margin-top: 10px;
+            margin-left: 25px;
+
+      
+        }
+        .promo1 img{
+            height: 100px;
+            margin-left: 25px;
+
+        }
+
+        .promo2 img{
+            height: 80px;
+        }
+
+        .promo3 img{
+            height: 70px;
+            margin-left: 39px;
+        }
+        .promo3 footer{
+            margin-top: 5px;
+        }
+        
+        .mapa{
+
+
+            float: left;
+            margin-top: 50px;
+            margin-left: 480px;
+            background-color:#821b1d;
+            border-style: dashed;
+        
+        }
+
+        .mapa iframe{
+            height: 350px;
+            width: 350px;
+            margin-left: 30px;
+            margin-bottom: 30px;
+            border-style: dashed
+        }
+        .sabores{
+          margin-left: 440px;
+          margin-top: -20;
+        }
+        .saborpizza{
+            margin-top: 0px;
+            float: left;
+            margin-left: -650px
+
+        }
+
+        .saborpizza li{
+            list-style: none;
+            float: left;
+            margin: 70px;
+            height: 300px;
+            width: 250px;
+            background-color: #821b1d
+             }
+         .saborpizza img{
+             margin-left: 15px;
+             margin-top: 10px;
+             border-style: ridge
+         }
+        .saborpizza h1{
+            font-size: 100%;
+            margin-left: 40px;
+            
+        }
+
+        .saborpizza button{
+            margin-left: 40px;
+            height: 20px;
+            width: 30px;
+        }
+        
+        .popup{
+            display: none;
+            background-color:white;
+            height: 100px;
+            width: 100;
+            border-style: dashed
+               
+        }
+
+        .popup button{
+            margin-left: 2px;
+            margin-bottom: 10px;
+        }
+        .popup h1{
+            margin-bottom: 10px;
+            float: left;
+            margin-left: 5px;
+            color: green;
+            
+        }
+
+        .saborpizza select{
+            margin-left: 80px;
+        }
+
+      .saborpizza footer{
+          margin-top: 20px;
+          margin-left: 29px;
+      }
+
+      .saborpizza button{
+          width: 100px;
+      }
+   
+      .movper{
+        margin-left: 170px;
+      }
+      .perguntasFreq{
+          margin-right: 350px;
+      }
+      .outraPergunta{
+          margin-left: 350px;
+      }
+    .minhasperguntas{
+        height: 500px;
+        width: 300px;
+        background-color: #821b1d;
+        margin-left: 700px;
+    }
+.dados{
+    float: left;
+    margin-right: 150px;
+    margin-left: 650px;
+    margin-top: -400px;
+    size: 500px;
+}
+.gologin{
+    margin-left: 580px;
+}
+.pizzasecurity{
+    float: left;
+}
+.number{
+    margin-left: 80px;
+    font-size: 100px;
+}
+.entregador{
+   margin-top: -150px;
+}

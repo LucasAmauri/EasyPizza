@@ -1,0 +1,129 @@
+<html>
+
+<head>
+<link rel="stylesheet" type="text/css" href="./css/main.css">
+<title>Easy Pizza</title>
+</head>
+
+<body>
+<header class="menu-principal">
+<main>
+                                        
+<div class="logo">
+<img src="./img/Logo.png">
+</div>
+                                    
+<div class="Redes">
+<ul>
+<li><a href="http://facebook.com.br" target="blank"><img src="./img//LogoF.png"/></a></li>
+<li><a href="https://www.instagram.com" target="blank"><img src="./img/LogoI.png"/></a></li>
+</div>
+</div>      
+                                
+</main>
+
+</header>
+<main class="conteudo">
+<div class="menu">
+<ul>
+<li><a href="./index_logged.html"><img src="./img/Bhome.png"></a></li>
+<li><a href="./cardapio_logged.html"><img src="./img/Bcardapios.png"></a></li>
+<li><a href="./duvidas_logged.html"><img src="./img/Bduvidas.png"></a></li>
+</ul>
+</div>
+
+<div class="fundo">
+<div = class="titulo"><h1>Sabores</h1></div>
+
+
+<div class="sabores">
+<button>Pizzas salgadas</button>
+<button>Pizzas doces</button>
+<input type="search">
+<button>Pesquisar</button>
+</div>
+
+<div class="saborpizza" id="3">
+<ul>
+<li><img src="./img/Pizzacamarao.png"><h1>Pizza de Camarao</h1>
+<select>
+<option value="Grande">Grande</option>
+<option value="Média">Media</option>
+<option value="Pequena">Pequena</option>
+                           
+</select>
+<footer><button id="2">Pedir</button></footer>
+                    
+</li>
+
+<li>
+<img src="./img/Piazzapeitodeperu.png"><h1>Pizza de Peito de Peru</h1>
+<select>
+<option value="Grande">Grande</option>
+<option value="Média">Media</option>
+<option value="Pequena">Pequena</option>
+</select>
+<footer><button id="2">Pedir</button></footer>
+                          
+</li>
+                
+</ul>
+</div>
+</div>     
+        
+<a href="bt1">bt1</a>
+</main>
+
+<script>
+
+    var fundoSabores = document.getElementById('3');
+    var botaoFazerPedido = document.getElementById('2');
+
+    
+    botaoFazerPedido.onclick = function(){
+    var caixaconfirma = document.createElement('div');  //cria o espaço
+    var caixaconfirmaX = document.createElement('button'); //cria um botão
+    var bConfirmapedido = document.createElement('button');
+    caixaconfirma.style.height = 150;      //tamanho da caixa
+    caixaconfirma.style.width = 150;       //largura da caixa
+    caixaconfirma.style.marginTop = 400;   
+    caixaconfirma.style.marginLeft =170;
+
+    caixaconfirma.style.backgroundColor = '#821b1d';
+    caixaconfirmaX.style.height = 20;
+    caixaconfirmaX.style.width = 20;
+    caixaconfirmaX.style.marginLeft = 125;
+    caixaconfirmaX.style.marginTop = -50;
+
+    bConfirmapedido.style.marginTop = 70;
+    bConfirmapedido.style.marginLeft = 25;
+    
+
+    var x = document.createTextNode('x');   //variavel que armazena um valor criado com o document
+    var textoBconfirma = document.createTextNode('Confirmar');
+    caixaconfirmaX.appendChild(x);       //colocando variavel criada acima dentro do botão
+    fundoSabores.appendChild(caixaconfirma);
+    caixaconfirma.appendChild(caixaconfirmaX);
+    bConfirmapedido.appendChild(textoBconfirma);
+    caixaconfirma.appendChild(bConfirmapedido);
+
+
+
+
+    caixaconfirmaX.onclick = function(){
+    caixaconfirma.remove();
+    }
+
+    }
+
+
+ 
+
+
+
+
+</script>
+    
+    </body
+ 
+</html>
